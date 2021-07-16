@@ -42,7 +42,7 @@ function placeXOrO(squareNumber)    {
 }
 
 function checkWinConditions() {
-    if      (arrayIncludes('OX', '1X', '2X')) { drawWinLine(50, 100, 558, 100)  }
+    if      (arrayIncludes('0X', '1X', '2X')) { drawWinLine(50, 100, 558, 100)  }
     else if (arrayIncludes('3X', '4X', '5X')) { drawWinLine(50, 304, 558, 304)  }
     else if (arrayIncludes('6X', '7X', '8X')) { drawWinLine(50, 508, 558, 508)  }
     else if (arrayIncludes('0X', '3X', '6X')) { drawWinLine(100, 50, 100, 558)  }
